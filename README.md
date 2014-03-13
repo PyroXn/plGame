@@ -7,20 +7,20 @@ dans une console à la racine ---> npm install
 
 structure du projet :
 
-*lib
-   *config
-   *db
-   *handler
-   *router
-   *server
-*public
-   *css
-   *img
-   *js
-*test
-*views
-*app.js
+* lib
+   * config
+   * db
+   * handler
+   * router
+   * server
+* public
+   * css
+   * img
+   * js
+* test
+* views
+* app.js
 	
-M --> lib/db
-V --> views
-C --> router et handler
+M --> lib/db  
+V --> views  
+C --> router et handler  
