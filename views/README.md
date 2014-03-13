@@ -1,0 +1,1 @@
+modèles de vues (templates) servant à produire les pages html ---> Jade
