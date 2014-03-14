@@ -3,6 +3,7 @@ plGame
 
 installation de node.js ---> http://nodejs.org/  
 installation de mangoDB ---> https://www.mongodb.org/  
+creer un repertoire data puis initialise la base ---> mongod --dbpath c:\dev\nodejs\plGame\data  
 dans une console à la racine ---> npm install  
 
 structure du projet :
