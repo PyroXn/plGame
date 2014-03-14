@@ -1,0 +1,1 @@
+contient la définition des routes supportées par l'application.  

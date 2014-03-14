@@ -7,20 +7,13 @@ dans une console à la racine ---> npm install
 
 structure du projet :
 
-* lib
-   * config
-   * db
-   * handler
-   * router
-   * server
-* public
+* controllers contient les routes
+* models contient les schema de mongoose
+* public le contenu statique
    * css
    * img
    * js
 * test
-* views
+* views les templates jade
 * app.js
 	
-M --> lib/db  
-V --> views  
-C --> router et handler  
