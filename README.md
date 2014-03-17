@@ -3,7 +3,7 @@ plGame
 
 installation de node.js ---> http://nodejs.org/  
 installation de mongoDB ---> https://www.mongodb.org/  
-installation de python pour bcrypt ? (inutile pour le moment)
+installation de python pour bcrypt ? (inutile pour le moment)  
 creer un repertoire data puis initialise la base ---> mongod --dbpath c:\dev\nodejs\plGame\data  
 dans une console à la racine ---> npm install  
 
