@@ -8,10 +8,12 @@
   "dependencies": {
     "express": "3.5.0",
     "jade": "latest",
-	"mongodb": "latest",
-	"mongoose": "latest",
-	"passport" : "latest", 		
+    "ejs": "latest",
+    "ejs-locals": "latest",
+	  "mongodb": "latest",
+	  "mongoose": "latest",
+	  "passport" : "latest", 		
     "passport-local" : "latest",
-	"connect-flash" : "latest"
+	  "connect-flash" : "latest"
   }
 }
