@@ -1,15 +1,8 @@
 doctype html
 html
   head
-    title Passport-Local Example
+    title Node Authentication
+    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css')
+    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css')
   body
-    if !user
-      p  
-        a(href="/") Home  
-        a(href="/login") Log In
-    else 
-      p 
-        a(href="/") Home  
-        a(href="/account") Account  
-        a(href="/logout") Log Out
     block content
