@@ -1,2 +1,2 @@
-ici les tests automatis�s
-prout
+ici les tests automatisés
+...
