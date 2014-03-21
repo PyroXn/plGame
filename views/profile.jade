@@ -15,8 +15,81 @@ block content
 						span.fa.fa-user
 						span Local
 					p
-						strong id : #{user._id}
+						strong id 
+						| : #{user._id} 
 						br
-						strong email : #{user.local.email}
+						strong email
+						| : #{user.local.email}
 						br
-						strong password : #{user.local.password}
+						strong password
+						| : #{user.local.password}
+
+			<!-- FACEBOOK INFORMATION -->
+			div.col-sm-6
+				div.well
+					h3.text-primary
+						span.fa.fa-facebook
+						span  Facebook
+					<!-- check if the user has this token (is the user authenticated with this social account) -->
+					if (user.facebook.token)
+						p
+							strong id
+							| : #{user.facebook.id}
+							br
+							strong token
+							| : #{user.facebook.token}
+							br
+							strong email
+							| : #{user.facebook.email}
+							br
+							strong name
+							| : #{user.facebook.name}
+						a(href="/unlink/facebook").btn.btn-primary Unlink
+					else
+						a(href="/connect/facebook").btn.btn-primary Connect Facebook
+
+		div.row
+			<!-- TWITTER INFORMATION -->
+			div.col-sm-6
+				div.well
+					h3.text-info
+						span.fa.fa-twitter
+						span  Twitter
+					<!-- check if the user has this token (is the user authenticated with this social account) -->
+					if (user.twitter.token)
+						p
+							strong id
+							| : #{user.twitter.id}
+							br
+							strong token
+							| : #{user.twitter.token}
+							br
+							strong display name
+							| : #{user.twitter.displayName}
+							br
+							strong username : #{user.twitter.username}
+						a(href="/unlink/twitter").btn.btn-info Unlink
+					else
+						a(href="/connect/twitter").btn.btn-info Connect Twitter
+			<!-- GOOGLE INFORMATION -->
+			div.col-sm-6
+				div.well
+					h3.text-danger
+						span.fa.fa-google-plus 
+						span  Google+
+					<!-- check if the user has this token (is the user authenticated with this social account) -->
+					if (user.google.token)
+						p
+							strong id
+							| : #{user.google.id}
+							br
+							strong token
+							| : #{user.google.token}
+							br
+							strong email
+							| : #{user.google.email}
+							br
+							strong name : #{user.google.name}
+						a(href="/unlink/google").btn.btn-danger Unlink
+					else
+						a(href="/connect/google").btn.btn-danger Connect Google

@@ -1,0 +1,23 @@
+extends layout
+
+block content
+	div.container
+		div.col-sm-6.col-sm-offset-3
+			h1 
+				span.fa.fa-user
+				span Add Local Account
+			if (message.length > 0) {
+				div.alert.alert-danger #{message}
+			}
+			<!-- LOGIN FORM -->
+			form(action="/connect/local", method="post")
+				div.form-group
+					label Email
+					input(type="text", name="email").form-control
+				div.form-group
+					label Password
+					input(type="password", name="password").form-control
+				button(type="submit").btn.btn-warning.btn-lg Add Local
+			hr
+			p 
+				a(href="/profile") Go back to profile

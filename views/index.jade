@@ -7,9 +7,18 @@ block content
 				span.fa.fa-lock
 				span Node Authentication
 			p Login or Register with:
-			a(href="/login").btn.btn-default
+			a.btn.btn-default(href="/login")
 				span.fa.fa-user
-				span Local Login
-			a(href="/signup").btn.btn-default
+				|  Local Login
+			a.btn.btn-default(href="/signup")
 				span.fa.fa-user
-				span Local Signup
+				|  Local Signup
+			a.btn.btn-primary(href="/auth/facebook")
+				span.fa.fa-facebook
+				|  Facebook
+			a.btn.btn-info(href="/auth/twitter")
+				span.fa.fa-twitter
+				|  Twitter
+			a.btn.btn-danger(href="/auth/google")
+				span.fa.fa-google-plus
+				|  Google+
