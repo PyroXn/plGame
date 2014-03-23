@@ -19,4 +19,4 @@ structure du projet :
 * views les templates jade
 * app.js
 
-	test tortoise pyro
+	test tortoise pyro2
